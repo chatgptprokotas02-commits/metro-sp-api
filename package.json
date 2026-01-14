@@ -1,18 +1,16 @@
 {
-  "name": "status-metro-api",
+  "name": "api-metro-sp",
   "version": "1.0.0",
+  "description": "API status metro SP",
   "main": "index.js",
-  "license": "MIT",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dayjs": "^1.9.6",
-    "express": "^4.17.1",
-    "express-rate-limit": "^5.2.3",
-    "jsdom": "^21.1.1"
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0"
   },
   "engines": {
     "node": ">=18.0.0"
